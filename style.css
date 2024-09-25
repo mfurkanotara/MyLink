@@ -1,0 +1,54 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333;
+        color: #f4f4f4;
+    }
+
+    a {
+        color: #9bd;
+    }
+}
+
+body {
+    margin: 0; /* Sayfa kenar boşluğunu sıfırlar */
+}
+
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card-body {
+    padding: 16px;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+.dark-theme {
+    background-color: #333; /* Arka plan rengi */
+    color: #f4f4f4; /* Metin rengi */
+}
+
+.dark-theme a {
+    color: #9bd; /* Link rengi */
+}
+
+/* Kartın ve butonların uyumlu rengi */
+.dark-theme .card {
+    background-color: #444; /* Kart arka plan rengi */
+    color: #f4f4f4; /* Kart metin rengi */
+}
+
+.dark-theme .btn {
+    background-color: #555; /* Buton arka plan rengi */
+    color: #fff; /* Buton metin rengi */
+}
+
+.dark-theme .btn:hover {
+    background-color: #666; /* Buton hover rengi */
+}
